@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shree Shyam Kulfi</title>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zilla+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="veg" viewBox="0 0 26 26"><rect x="1.5" y="1.5" width="23" height="23" fill="#FFF6E3" stroke="#1B7A2B" stroke-width="2.5"/><circle cx="13" cy="13" r="6.5" fill="#1B7A2B"/></symbol>
+<symbol id="kulfi" viewBox="0 0 120 360">
+<defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".42"/><stop offset=".32" stop-color="#fff" stop-opacity="0"/><stop offset=".68" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".3"/></linearGradient><clipPath id="bd"><path d="M60 4C64 4 66 10 70 18C82 38 92 62 94 100L96 244Q96 254 86 254H34Q24 254 24 244L26 100C28 62 38 38 50 18C54 10 56 4 60 4Z"/></clipPath></defs>
+<path d="M49 240H71V340Q71 352 60 352Q49 352 49 340Z" fill="#D9B382"/><path d="M60 262V338" stroke="#B88C5A" stroke-width="1.5"/>
+<path d="M60 4C64 4 66 10 70 18C82 38 92 62 94 100L96 244Q96 254 86 254H34Q24 254 24 244L26 100C28 62 38 38 50 18C54 10 56 4 60 4Z" style="fill:var(--stick);transition:fill .6s"/>
+<path d="M34 250V266Q34 278 42 278Q50 278 50 266V250Z" style="fill:var(--stick);transition:fill .6s"/>
+<g clip-path="url(#bd)">
+<g style="fill:var(--speck);transition:fill .6s"><path d="M46 52l8 2-3 7z"/><path d="M72 78l7-3 1 8z"/><path d="M40 118l9-3 2 8-9 1z"/><path d="M68 140l9 2-2 8-8-2z"/><path d="M48 172l9-2 3 7-9 3z"/><path d="M74 196l9 1-1 8-8-3z"/><path d="M38 224l9 2-1 7-8-2z"/><path d="M64 232l8-2 2 7-8 1z"/></g>
+<g fill="#EBD7AA"><path d="M0 0Q6-5 12 0Q6 5 0 0Z" transform="translate(54 96) rotate(-20)"/><path d="M0 0Q6-5 12 0Q6 5 0 0Z" transform="translate(34 160) rotate(25)"/><path d="M0 0Q6-5 12 0Q6 5 0 0Z" transform="translate(70 216) rotate(-35)"/></g>
+<g stroke="#E8832A" stroke-width="1.6" stroke-linecap="round" fill="none"><path d="M52 70q4 4 8 2"/><path d="M70 120q-3 5-8 5"/><path d="M45 190q5 2 8 6"/><path d="M78 160q-4 4-9 3"/></g>
+<g stroke="#000" stroke-opacity=".12" fill="none"><path d="M30 130q10 4 16 0"/><path d="M82 204q-8 3-18 0"/></g>
+</g>
+<path d="M60 4C64 4 66 10 70 18C82 38 92 62 94 100L96 244Q96 254 86 254H34Q24 254 24 244L26 100C28 62 38 38 50 18C54 10 56 4 60 4Z" fill="url(#sh)"/><path d="M34 250V266Q34 278 42 278Q50 278 50 266V250Z" fill="url(#sh)"/>
+<path d="M34 104C36 72 44 46 54 26" stroke="#fff" stroke-opacity=".6" stroke-width="5" stroke-linecap="round" fill="none"/>
+<rect x="49" y="256" width="22" height="7" fill="#000" opacity=".18"/>
+</symbol>
+</defs></svg>
+
+<div class="wipe" id="wipe"></div>
+<main>
+<section class="hero">
+  <div class="blob"></div>
+  <div class="top">
+    <div class="brand"><svg class="veg" role="img" aria-label="Vegetarian"><use href="#veg"/></svg>Shree Shyam Flavour Kulfi</div>
+    <a href="tel:+919717440506">9717440506</a>
+  </div>
+  <div>
+    <h1><span><i>Shree</i></span><span><i>Shyam</i></span><span><i>Kulfi</i></span></h1>
+    <p class="tag">It’s not ice cream, it’s kulfi.</p>
+    <a class="cta" href="#menu">See all flavours</a>
+  </div>
+  <div class="stage" id="stage"><svg viewBox="0 0 120 360" role="img" aria-label="A kulfi on a stick"><use href="#kulfi"/></svg><svg viewBox="0 0 120 360" aria-hidden="true"><use href="#kulfi"/></svg></div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="side"><svg viewBox="0 0 120 360" aria-hidden="true"><use href="#kulfi"/></svg></div>
+  <div>
+    <h2>Kulfi’s</h2>
+    <ul class="rows" id="rows"></ul>
+    <p class="note">All our kulfi is 100% vegetarian. Tap a flavour to see what it tastes like.</p>
+  </div>
+</section>
+</main>
+
+<section class="order" id="order" style="position:relative;z-index:1">
+  <h2>Cold, creamy, ready when you are.</h2>
+  <p>Call or message us to place an order.</p>
+  <div class="btns">
+    <a href="https://wa.me/919717440506?text=Hi%2C%20I%20want%20to%20order%20kulfi" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    <a href="tel:+919717440506">Call 9717440506</a>
+    <a href="tel:+919899151416">Call 9899151416</a>
+  </div>
+</section>
+<footer><p>© Shree Shyam Kulfi. Kulfi… not just a treat, it’s a feeling.</p></footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
